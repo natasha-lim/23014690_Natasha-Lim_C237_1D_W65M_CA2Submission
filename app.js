@@ -18,10 +18,10 @@ const upload = multer({ storage: storage });
 
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'c237_beadedaccessoriesapp'
+    host: 'sql.freedb.tech',
+    user: 'freedb_Natasha',
+    password: 'gu79WE%sn*rdM@&',
+    database: 'freedb_MyDatabase'
 });
 
 connection.connect((err) => {
