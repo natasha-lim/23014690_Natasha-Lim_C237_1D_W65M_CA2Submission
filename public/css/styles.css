@@ -1,0 +1,41 @@
+/* For text alignment in all EJS files*/
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+/* for products page */
+
+.product-item {
+    margin: 20px;
+}
+
+.price-edit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.image-col {
+    gap: 40px;
+}
+
+/* button in to edit products*/
+.button {
+    background-color: lightblue;
+    border:none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
